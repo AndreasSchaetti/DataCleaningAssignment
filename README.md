@@ -8,7 +8,7 @@ The code uses the libraries `dplyr`, `stringr` and `tidyr`.
 
 ## Files
 
-`CodeBook.md` describes the variables of the dataset including their units and the steps that were performed to clean them and to create the tidy dataset.
+`CodeBook.md` describes the features of the dataset including their units and the steps that were performed to clean them and to create the tidy dataset.
 
 `run_analysis.R` is the R script that generates the tidy dataset.
 
