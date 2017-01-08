@@ -26,4 +26,4 @@ The R script executes the following steps:
 
 * Change the working directory to where the R script is located
 * Source the script: `source(run_analysis.R)`
-* The working directory should now contain the tidy dataset in the file `tidy.csv`
+* The working directory should now contain the tidy dataset in the text file `tidy.txt`

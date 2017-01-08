@@ -88,6 +88,6 @@ data.means.tidy <- data.means %>%
      mutate(variable=str_replace(variable, "\\.NA", "")) %>%
      spread(key=variable, value=value)
 
-# Write tidy data to CSV file
+# Write tidy data to text file
 
-write.csv(data.means.tidy, file="tidy.csv")
+write.table(data.means.tidy, file="tidy.txt", row.name=FALSE)

@@ -98,7 +98,7 @@ For this exercise, the train and test data were merged by binding the rows. Then
 
 For each activity and subject, column means were calculated. This grouped dataset was then tidied. The feature names in the form `variable-statistic()-axis` were separated by variable, statistic and axis of measurement and put together as `variable.statistic.axis`. Note that not all feature names contain an axis string. These feature names were cleaned in an additional step.
 
-As a result we get a CSV file with 180 rows (6 activities times 30 subjects) and 68 variables.
+As a result we get a text file with 180 rows (6 activities times 30 subjects) and 68 variables.
 
 ## Features of tidy dataset
 
@@ -164,4 +164,4 @@ The following steps are performed when executing the R script `run_analysis.R`:
 9. Add column: activity name (by merging on activity label)
 10. Calculate column means for each combination of activity and subject
 11. Tidy up column names
-12. Save tidy dataset to file `tidy.csv`
+12. Save tidy dataset to file `tidy.txt`
